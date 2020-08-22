@@ -7,12 +7,12 @@
 ## Week 1
 Dynamic Programming 
 
-- [ ] Read [Dynamic Programming Notes Hackerearth](https://www.hackerearth.com/practice/notes/dynamic-programming-i-1/)
-- [ ] Read [DP Tutorial involving grids](https://www.hackerearth.com/practice/notes/dynamic-programming-problems-involving-grids/)
-- [ ] Read [TopCoder Tutorial on DP](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
+- [x] Read [Dynamic Programming Notes Hackerearth](https://www.hackerearth.com/practice/notes/dynamic-programming-i-1/)
+- [x] Read [DP Tutorial involving grids](https://www.hackerearth.com/practice/notes/dynamic-programming-problems-involving-grids/)
+- [x] Read [TopCoder Tutorial on DP](https://www.topcoder.com/community/competitive-programming/tutorials/dynamic-programming-from-novice-to-advanced/)
 - Solve the following classical problems:
   - [ ] [Coin change problem](https://www.hackerrank.com/challenges/coin-change/problem)
-  - [ ] [Unbounded Knapsack](https://www.hackerrank.com/challenges/unbounded-knapsack/problem)
+  - [x] [Unbounded Knapsack](https://www.hackerrank.com/challenges/unbounded-knapsack/problem)
   - [ ] [Longest common subsequence](https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem)
 - Solve the following MISC problems:
   - [ ] [Cutting](https://codeforces.com/problemset/problem/998/B)
@@ -239,39 +239,3 @@ Fenwick Tree
 ### Why use this list?
   
 Since getting better at competitive programming takes a lot of effort, you need to keep practicing a lot of problems. This list will keep you focussed and you will have a target with you that you need to finish atleast these many problems before moving on. It can help you organize your practice.
-
-### How to use this list?
-
-The Github markdown's task list feature is used to check progress.
-
-**Create a new branch so that you can check items like this, just put a x in the brackets: [x]**
-
-- **One time steps**:
-1. Fork this repository. 
-2. Clone the forked repository.
-
-      `git clone https://github.com/your_user_name/Get_Better_at_CP_in_2_Months/`
-    
-3. Create a new branch for tracking your progress. Let's name this *your_user_name*
-
-      `git checkout -b your_user_name`
-      
-4. Add remote
-
-      `git remote add your_user_name https://github.com/your_user_name/Get_Better_at_CP_in_2_Months/`
-  
-- **Marking tasks as completed and pushing to your branch**:
-
-      git add .
-      git commit -m "Completed tasks x and y"
-      git rebase your_user_name/master
-      git push --force
-    
-- **Keeping your fork's list updated with the changes made here**:
-
-      git remote add upstream https://github.com/sahilbansal17/Get_Better_at_CP_in_2_Months.git
-      git checkout master
-      git pull upstream master
-      git push your_user_name master
-
-Refer to [this](https://github.com/susam/gitpr/blob/master/README.md) for understanding more about Fork and PR workflow.
